@@ -1,4 +1,3 @@
-test-cases:
 - summary: |
     Поиск товара по ключевому слову
   status: pass
@@ -63,12 +62,12 @@ test-cases:
     Работа при медленном интернет-соединении
   status: pass
 
-bugreports:
+
 - summary: |
     Поиск товара по несуществующему ключевому слову
   status: fail
 
-  - summary: |
+- summary: |
       Поиск товара по несуществующему ключевому слову
   environment: |
     Google Chrome 144.0.7559.97 (официальная сборка) (64 бит)
