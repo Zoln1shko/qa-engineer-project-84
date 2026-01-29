@@ -271,7 +271,7 @@
   prerequisites: |
     Ограничена скорость сети
   test-data: |
-    Нет
+    3G
   steps:
     - Открыть сайт
   expected-result: |
