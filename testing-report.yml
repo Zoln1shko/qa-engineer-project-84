@@ -1,0 +1,115 @@
+- summary: |
+    Поиск товара по ключевому слову
+  status: pass
+
+- summary: |
+    Поиск товара по несуществующему ключевому слову
+  status: pass
+
+- summary: |
+    Проверка базовой фильтрации товаров по категории
+  status: pass
+
+- summary: |
+    Проверка кнопки сброса фильтров категории
+  status: fail
+
+- summary: |
+    Проверка чекбокса "Производитель"
+  status: pass
+
+- summary: |
+    Все чекбоксы имеют названия
+  status: fail
+
+- summary: |
+    Просмотр карточки товара
+  status: pass
+
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
+- summary: |
+    Переключение языка интерфейса
+  status: fail
+
+- summary: |
+    Проверка локализации сайта
+  status: pass
+
+- summary: |
+    Проверка иконок языков интерфейса
+  status: fail
+
+- summary: |
+    Проверка удобства использования и скорости работы
+  status: pass
+
+- summary: |
+    Проверка безопасности данных пользователя
+  status: pass
+
+- summary: |
+    Проверка мобильной версии сайта
+  status: pass
+
+- summary: |
+    Совместимость с браузерами
+  status: pass
+
+- summary: |
+    Обработка большого количества трафика
+  status: pass
+
+- summary: |
+    Доступность сайта без VPN
+  status: fail
+
+- summary: |
+    Сохранение корзины в рамках сессии
+  status: pass
+
+- summary: |
+    Удаление товара из корзины
+  status: pass
+
+- summary: |
+    Изменение количества товара
+  status: pass
+
+- summary: |
+    Проверка отображения количества товаров в корзине
+  status: fail
+
+- summary: |
+    Переход к оформлению заказа
+  status: fail
+
+- summary: |
+    Отображение цен со скидкой
+  status: pass
+
+- summary: |
+    Обработка ошибок
+  status: pass
+
+- summary: |
+    Обработка ошибок в интерфейсе
+  status: fail
+
+- summary: |
+    Проверка SPA-поведения
+  status: pass
+
+- summary: |
+    Работа при медленном интернет-соединении
+  status: pass
+
+- summary: |
+    Проверка адаптивности интерфейса при узком разрешении
+  status: fail
+
+- summary: |
+    Проверка уменьшения количества товара после оформления заказа
+  status: fail
